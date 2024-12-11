@@ -11,7 +11,7 @@ import java.util.Set;
 public class Authority {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GengerationType.IDENTITY)
     private Long id;
 
     @Column(unique = true, nullable = false)
